@@ -11,6 +11,14 @@ You probably want [`imagemin-gifsicle`](https://github.com/imagemin/imagemin-gif
 $ npm install gifsicle
 ```
 
+## Customizing the download binary mirror 
+
+The following options are available:
+
+Environment Variable | Description                                       | Default
+---------------------| ------------------------------------------------- | ----------------------------------------
+GIFSICLE_BINARY_SITE | Specifies the location of the download binary mirror | https://raw.githubusercontent.com/imagemin/gifsicle-bin
+
 
 ## Usage
 
